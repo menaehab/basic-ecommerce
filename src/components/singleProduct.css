@@ -1,0 +1,14 @@
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+.rating {
+  color: #f39c12;
+}
+.flex-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
