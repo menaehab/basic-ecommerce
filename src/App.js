@@ -1,11 +1,14 @@
 import "./App.css";
+import Carousel from "./components/Carousel";
+import NavBar from "./components/NavBar";
+import ProductsList from "./components/ProductsList";
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <h1>Hello world</h1>
-      </div>
+      <NavBar />
+      <Carousel />
+      <ProductsList />
     </div>
   );
 }
